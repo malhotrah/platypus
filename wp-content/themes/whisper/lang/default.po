@@ -1,0 +1,1887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Whisper\n"
+"POT-Creation-Date: 2014-02-18 08:21+0700\n"
+"PO-Revision-Date: 2014-02-18 08:21+0700\n"
+"Last-Translator: FitWP <info@fitwp.com>\n"
+"Language-Team: FitWP <info@fitwp.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:2
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../404.php:7
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../comments.php:9 ../inc/widgets/tabs.php:43
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comment (1)"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comments (%)"
+msgstr ""
+
+#: ../comments.php:17
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:19
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:20
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:25
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:36
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:38 ../tpl/contact.php:139
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:41
+msgid "Name:"
+msgstr ""
+
+#: ../comments.php:45 ../tpl/contact.php:119
+msgid "Email:"
+msgstr ""
+
+#: ../comments.php:50 ../tpl/contact.php:124
+msgid "Message:"
+msgstr ""
+
+#: ../comments.php:54
+msgid ""
+"Hey, so you decided to leave a comment! That's great. Just fill in the "
+"required fields and hit submit. Note that your comment will need to be "
+"reviewed before its published."
+msgstr ""
+
+#: ../footer.php:12
+#, php-format
+msgid ""
+"This is the Footer Sidebar %s (widget area). Please go to <a href=\"%s"
+"\">Appearance &rarr; Widgets</a> to add widgets to this area"
+msgstr ""
+
+#: ../functions.php:60
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:74
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../functions.php:82
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../functions.php:90
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: ../functions.php:98
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: ../functions.php:106
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: ../functions.php:114
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:14
+msgid "Post Format: Image"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:19 ../inc/admin/portfolio-columns.php:45
+#: ../inc/functions/options/inc/fields.php:584
+#: ../inc/functions/shortcodes/modals/clients.php:29
+msgid "Image"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:27
+msgid "Post Format: Gallery"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:32
+msgid "Images"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:39
+msgid "Post Format: Video"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:44
+msgid "Video URL or Embeded Code"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:51
+msgid "Post Format: Audio"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:56
+msgid "Audio URL or Embeded Code"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:63
+msgid "Post Format: Quote"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:68
+msgid "Quote"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:73
+msgid "Author"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:78
+msgid "Author URL"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:85
+msgid "Post Format: Link"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:90
+#: ../inc/functions/shortcodes/modals/clients.php:22
+#: ../inc/functions/shortcodes/modals/social.php:18
+#: ../inc/widgets/social-media-links.php:126
+msgid "URL"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:95
+msgid "Text"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:104
+msgid "Display Settings"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:108
+msgid "Featured Title Area?"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:113
+msgid "Hide Featured Title Area?"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:119
+msgid "Custom Title"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:122
+msgid "Leave empty to use post title"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:126
+msgid "Subtitle"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:131 ../inc/options.php:103
+#: ../inc/options.php:351
+msgid "Custom Background"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:134 ../inc/admin/meta-boxes.php:140
+#, php-format
+msgid ""
+"This will <b>overwrite</b> breadcrumbs settings in <a href=\"%s\" target="
+"\"_blank\">Theme Options</a>."
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:137
+msgid "Hide Breadcrumbs?"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:144 ../inc/admin/meta-boxes.php:149
+msgid "Slider"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:152
+msgid "Enter <b>slider shortcode</b> here to display it under title area."
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:155
+msgid "Custom Layout"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:160
+msgid "Use Custom Layout?"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:164
+#, php-format
+msgid ""
+"This will <b>overwrite</b> page layout settings in <a href=\"%s\" target="
+"\"_blank\">Theme Options</a>."
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:167 ../inc/options.php:117
+msgid "Layout Style"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:177
+msgid "Select Layout"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:192
+msgid "Contact Info"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:197
+#: ../inc/functions/shortcodes/modals/team-member.php:33
+msgid "Email"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:202
+#: ../inc/functions/shortcodes/modals/team-member.php:27
+msgid "Phone"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:207
+msgid "Address"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:212
+msgid "Location"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:224
+msgid "Portfolio Settings"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:228 ../inc/options.php:365
+msgid "Display"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:232
+msgid "Default"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:233
+#: ../inc/functions/shortcodes/modals/divider.php:9
+#: ../inc/functions/shortcodes/modals/icon-box.php:12
+msgid "Simple"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:238
+msgid "Project Images"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:243
+msgid "Project URL"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:248
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/admin/meta-boxes.php:254
+msgid "Testimonial Author"
+msgstr ""
+
+#: ../inc/admin/portfolio-columns.php:46
+#: ../inc/functions/shortcodes/modals/clients.php:15
+#: ../inc/functions/shortcodes/modals/team-member.php:3
+msgid "Name"
+msgstr ""
+
+#: ../inc/admin/portfolio-columns.php:47
+msgid "Date"
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:15 ../tpl/parts/featured-title.php:7
+msgid "Home"
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:17
+msgid "You are here: "
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:110 ../tpl/parts/featured-title.php:22
+#, php-format
+msgid "Search results for &quot;%s&quot;"
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:114 ../tpl/parts/featured-title.php:26
+msgid "Not Found"
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:123 ../tpl/parts/featured-title.php:31
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:133 ../tpl/parts/featured-title.php:36
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:140 ../tpl/parts/featured-title.php:40
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:147 ../tpl/parts/featured-title.php:44
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../inc/frontend/breadcrumbs.php:154 ../tpl/parts/featured-title.php:2
+msgid "Archives"
+msgstr ""
+
+#: ../inc/frontend/entry.php:61
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../inc/frontend/entry.php:69
+msgid "0 comments"
+msgstr ""
+
+#: ../inc/frontend/entry.php:69
+msgid "1 comments"
+msgstr ""
+
+#: ../inc/frontend/entry.php:69
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../inc/frontend/entry.php:74
+msgid "Posted In: "
+msgstr ""
+
+#: ../inc/frontend/entry.php:102
+msgid "<span>Tags: </span>"
+msgstr ""
+
+#: ../inc/frontend/entry.php:148 ../inc/functions/shortcodes/frontend.php:477
+#: ../inc/options.php:388
+msgid "Continue reading"
+msgstr ""
+
+#: ../inc/frontend/entry.php:153 ../inc/frontend/entry.php:266
+#, php-format
+msgid "Continue reading &quot;%s&quot;"
+msgstr ""
+
+#: ../inc/frontend/entry.php:179 ../inc/frontend/entry.php:222 ../page.php:8
+msgid "Pages:"
+msgstr ""
+
+#: ../inc/frontend/frontend.php:87
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../inc/frontend/frontend.php:88
+msgid "(Edit)"
+msgstr ""
+
+#: ../inc/frontend/frontend.php:98
+msgid "&nbsp;&nbsp;Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/frontend/header.php:52
+msgid "Go to..."
+msgstr ""
+
+#: ../inc/frontend/pagination.php:27
+msgid "&laquo;"
+msgstr ""
+
+#: ../inc/frontend/pagination.php:28
+msgid "&raquo;"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:170
+msgid "previous"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:171
+msgid "play"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:172
+msgid "pause"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:173
+msgid "next"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:174
+msgid "stop"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:175
+msgid "mute"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:176
+msgid "unmute"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:177
+msgid "max volume"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:192
+msgid "shuffle"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:193
+msgid "shuffle off"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:195
+msgid "repeat"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:196
+msgid "repeat off"
+msgstr ""
+
+#: ../inc/frontend/post-formats.php:200
+#, php-format
+msgid ""
+"<span>Update Required</span> To play the media you will need to either "
+"update your browser to a recent version or update your <a href=\"%s\" target="
+"\"_blank\">Flash plugin</a>."
+msgstr ""
+
+#: ../inc/frontend/seo.php:67
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:164 ../inc/plugins.php:53
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:165 ../inc/plugins.php:54
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:166 ../inc/plugins.php:55
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:178
+#: ../inc/functions/class-tgm-plugin-activation.php:490 ../inc/plugins.php:67
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:179
+#: ../inc/functions/class-tgm-plugin-activation.php:1846 ../inc/plugins.php:68
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:517
+#: ../inc/functions/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1299
+#: ../inc/functions/shortcodes/modals/divider.php:3
+#: ../inc/functions/shortcodes/modals/dropcap.php:3
+#: ../inc/functions/shortcodes/modals/icon-box.php:3
+#: ../inc/functions/shortcodes/modals/note.php:3
+msgid "Type"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1956
+#: ../inc/functions/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1956
+#: ../inc/functions/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/functions/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/functions/options/inc/admin.php:35
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/functions/options/inc/admin.php:57
+msgid "This action can't be undo. Are you sure want to reset?"
+msgstr ""
+
+#: ../inc/functions/options/inc/admin.php:58
+msgid "All previous options will be overwritten.  Are you sure want to import?"
+msgstr ""
+
+#: ../inc/functions/options/inc/admin.php:59
+msgid "Select Image"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:233
+msgid "Select"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:487
+msgid "Add Sidebar"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:579
+#: ../inc/functions/shortcodes/modals/dropcap.php:7
+msgid "Color"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:591
+msgid "Position X"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:593 ../inc/options.php:312
+msgid "Left"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:594
+#: ../inc/functions/options/inc/fields.php:604
+msgid "Center"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:595 ../inc/options.php:318
+msgid "Right"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:601
+msgid "Position Y"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:603 ../inc/options.php:300
+msgid "Top"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:605 ../inc/options.php:306
+msgid "Bottom"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:613
+#: ../inc/functions/options/inc/fields.php:615
+msgid "Repeat"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:616
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:617
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:618
+msgid "No Repeat"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:624
+msgid "Attachment"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:626
+msgid "Scroll"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:627
+msgid "Fixed"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:646
+msgid "Facebook URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:647
+msgid "Twitter URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:648
+msgid "Flickr URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:649
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:650
+msgid "Google Plus URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:651
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:652
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:653
+msgid "Skype ID"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:654
+msgid "Yahoo ID"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:655
+msgid "Youtube URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:656
+msgid "Behance URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:657
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:658
+msgid "DeviantArt URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:659
+msgid "SoundCloud URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:660
+msgid "GitHub URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:661
+msgid "Instagram URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:662
+msgid "MySpace URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:663
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../inc/functions/options/inc/fields.php:749
+msgid "Import Options"
+msgstr ""
+
+#: ../inc/functions/options/inc/page.php:48
+#: ../inc/functions/options/inc/page.php:91
+msgid "Reset Options"
+msgstr ""
+
+#: ../inc/functions/options/inc/page.php:49
+#: ../inc/functions/options/inc/page.php:92
+msgid "Save Changes"
+msgstr ""
+
+#: ../inc/functions/options/inc/page.php:59
+#, php-format
+msgid "By <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+
+#: ../inc/functions/shortcodes/admin.php:40
+msgid "Drop cap"
+msgstr ""
+
+#: ../inc/functions/shortcodes/admin.php:41
+msgid "Divider"
+msgstr ""
+
+#: ../inc/functions/shortcodes/admin.php:53
+msgid "Column"
+msgstr ""
+
+#: ../inc/functions/shortcodes/frontend.php:93
+msgid "divider"
+msgstr ""
+
+#: ../inc/functions/shortcodes/frontend.php:258
+msgid "team member"
+msgstr ""
+
+#: ../inc/functions/shortcodes/frontend.php:356
+msgid "client image"
+msgstr ""
+
+#: ../inc/functions/shortcodes/frontend.php:400
+msgid "View all projects <span>&#62;</span>"
+msgstr ""
+
+#: ../inc/functions/shortcodes/frontend.php:551
+msgid "View portfolio"
+msgstr ""
+
+#: ../inc/functions/shortcodes/frontend.php:557
+msgid "Read our blog"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/clients.php:5
+#: ../inc/functions/shortcodes/modals/icon-box.php:26
+#: ../inc/functions/shortcodes/modals/social.php:25
+#: ../inc/widgets/recent-posts.php:150
+#: ../inc/widgets/social-media-links.php:109
+#: ../inc/widgets/social-media-links.php:123 ../inc/widgets/tabs.php:250
+#: ../inc/widgets/tabs.php:287 ../inc/widgets/tabs.php:325
+#: ../inc/widgets/tweets.php:151
+msgid "Title"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/clients.php:12
+msgid "Edit Client"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/clients.php:36
+msgid "Intro"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/clients.php:44
+msgid "Add Client"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/clients.php:49
+#: ../inc/functions/shortcodes/modals/column.php:41
+#: ../inc/functions/shortcodes/modals/divider.php:20
+#: ../inc/functions/shortcodes/modals/dropcap.php:15
+#: ../inc/functions/shortcodes/modals/icon-box.php:43
+#: ../inc/functions/shortcodes/modals/icon.php:20
+#: ../inc/functions/shortcodes/modals/note.php:23
+#: ../inc/functions/shortcodes/modals/portfolios.php:60
+#: ../inc/functions/shortcodes/modals/posts.php:65
+#: ../inc/functions/shortcodes/modals/social-feed.php:41
+#: ../inc/functions/shortcodes/modals/social.php:35
+#: ../inc/functions/shortcodes/modals/team-member.php:42
+msgid "Shortcode Preview"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/column.php:3
+msgid "Span"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/column.php:17
+msgid "Custom Class"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/column.php:24
+msgid "Total columns (optional)"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/divider.php:10
+#: ../inc/functions/shortcodes/modals/icon-box.php:19
+#: ../inc/functions/shortcodes/modals/icon.php:3
+#: ../inc/functions/shortcodes/tpl/menu.php:4
+msgid "Icon"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/dropcap.php:6
+msgid "Normal"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/icon-box.php:9
+msgid "Big"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/icon-box.php:10
+msgid "Hexagon"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/icon-box.php:11
+msgid "Small"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/icon-box.php:33
+#: ../inc/functions/shortcodes/modals/note.php:12
+msgid "Content"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/icon.php:10
+msgid "Size"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/note.php:6
+msgid "No Icon"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/note.php:7
+msgid "With Icon"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/note.php:15
+msgid "You can use HTML here as well."
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/note.php:16
+msgid ""
+"Use &lt;span class=\"text-color\"&gt;TEXT&lt;/span&gt; to highlight text."
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/portfolios.php:3
+#: ../inc/functions/shortcodes/modals/posts.php:3
+msgid "Show Section Title?"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/portfolios.php:10
+#: ../inc/functions/shortcodes/modals/posts.php:10
+msgid "Section Title"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/portfolios.php:17
+msgid "Number Of Portfolios"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/portfolios.php:33
+msgid "Show Format Icon"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/portfolios.php:40
+#: ../inc/functions/shortcodes/modals/posts.php:46
+msgid "Total Columns"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/portfolios.php:51
+#: ../inc/functions/shortcodes/modals/posts.php:57
+msgid ""
+"What is your content width (in 12-grid columns)? (usually 4, 6, 8, 9, 12)"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/posts.php:17
+#: ../inc/widgets/recent-posts.php:157 ../inc/widgets/tabs.php:255
+#: ../inc/widgets/tabs.php:293
+msgid "Number Of Posts"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/posts.php:32
+msgid "Content Limit (words)"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/posts.php:39
+msgid "More Text"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:4
+msgid "Social Network"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:10
+#: ../inc/widgets/social-feed.php:96 ../inc/widgets/social-media-links.php:19
+msgid "Pinterest"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:11
+msgid "Deviant Art"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:12
+#: ../inc/widgets/social-feed.php:98 ../inc/widgets/social-media-links.php:21
+msgid "Flickr"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:13
+#: ../inc/widgets/social-feed.php:99 ../inc/widgets/social-media-links.php:29
+msgid "Dribbble"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:14
+#: ../inc/widgets/social-feed.php:100 ../inc/widgets/social-media-links.php:25
+msgid "Youtube"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:15
+#: ../inc/widgets/social-feed.php:101
+msgid "Newsfeed"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:16
+#: ../inc/widgets/social-feed.php:102 ../inc/widgets/social-media-links.php:23
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:24
+#: ../inc/widgets/social-feed.php:107
+msgid "Username"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social-feed.php:31
+msgid "Limit"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social.php:4
+msgid "Choose Social Network"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/social.php:7
+msgid "Search Icon..."
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/team-member.php:9
+msgid "Position"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/team-member.php:15
+msgid "Photo URL"
+msgstr ""
+
+#: ../inc/functions/shortcodes/modals/team-member.php:21
+msgid "Biography"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:2
+msgid "Advanced"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:5
+msgid "Icon Box"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:6
+msgid "Note Box"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:7
+msgid "Social Media"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:8
+msgid "Social Feed"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:9
+msgid "Member"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:10
+msgid "Clients"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:11
+msgid "Posts"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:12
+msgid "Portfolios"
+msgstr ""
+
+#: ../inc/functions/shortcodes/tpl/menu.php:13
+msgid "Port./Post Tab"
+msgstr ""
+
+#: ../inc/options.php:20
+msgid "General"
+msgstr ""
+
+#: ../inc/options.php:24
+msgid "Favicon"
+msgstr ""
+
+#: ../inc/options.php:26
+#, php-format
+msgid ""
+"Specify a <a href=\"%s\" target=\"_blank\">favicon</a> for your site. "
+"Accepted formats: .ico, .png, .gif"
+msgstr ""
+
+#: ../inc/options.php:30
+msgid "Touch Icon (152x152 PNG)"
+msgstr ""
+
+#: ../inc/options.php:32
+#, php-format
+msgid ""
+"Specify icon for mobile devices and tablets. <a href=\"%s\" target=\"_blank"
+"\">Learn more</a>."
+msgstr ""
+
+#: ../inc/options.php:39
+msgid "Show Comments On Pages"
+msgstr ""
+
+#: ../inc/options.php:46
+msgid "Backup - Restore"
+msgstr ""
+
+#: ../inc/options.php:48
+msgid ""
+"You can transfer the saved options data between different installs by "
+"copying the text inside the text box. To import data from another install, "
+"replace the data in the text box with the one from another install and click "
+"\"Import Options\" button above"
+msgstr ""
+
+#: ../inc/options.php:56
+msgid "Design"
+msgstr ""
+
+#: ../inc/options.php:61 ../inc/options.php:66
+msgid "Color Scheme"
+msgstr ""
+
+#: ../inc/options.php:81
+msgid "Background"
+msgstr ""
+
+#: ../inc/options.php:86
+msgid "<b>Warning:</b> Background image is used <b>ONLY</b> in boxed layout."
+msgstr ""
+
+#: ../inc/options.php:90
+msgid "Background Pattern"
+msgstr ""
+
+#: ../inc/options.php:105
+#, php-format
+msgid ""
+"A lot of background patterns can be found at <a href=\"%s\" target=\"_blank"
+"\">Subtle Patterns</a>."
+msgstr ""
+
+#: ../inc/options.php:112
+msgid "Layout"
+msgstr ""
+
+#: ../inc/options.php:130
+msgid "Site Layout"
+msgstr ""
+
+#: ../inc/options.php:138
+msgid ""
+"Specify layout for all pages on website, e.g. blog posts, archives, etc."
+msgstr ""
+
+#: ../inc/options.php:139 ../inc/options.php:344 ../inc/options.php:353
+msgid ""
+"Single post/page can overwrite this settings in Display Settings meta box "
+"when edit."
+msgstr ""
+
+#: ../inc/options.php:146
+msgid "Page Layout"
+msgstr ""
+
+#: ../inc/options.php:154
+msgid "Specify layout for pages on website."
+msgstr ""
+
+#: ../inc/options.php:155
+msgid ""
+"Single page can overwrite this settings in Display Settings meta box when "
+"edit."
+msgstr ""
+
+#: ../inc/options.php:162
+msgid "Typography"
+msgstr ""
+
+#: ../inc/options.php:167
+msgid "Body Text"
+msgstr ""
+
+#: ../inc/options.php:181
+msgid "Heading 1"
+msgstr ""
+
+#: ../inc/options.php:192
+msgid "Heading 2"
+msgstr ""
+
+#: ../inc/options.php:203
+msgid "Heading 3"
+msgstr ""
+
+#: ../inc/options.php:214
+msgid "Heading 4"
+msgstr ""
+
+#: ../inc/options.php:225
+msgid "Heading 5"
+msgstr ""
+
+#: ../inc/options.php:236
+msgid "Heading 6"
+msgstr ""
+
+#: ../inc/options.php:250 ../inc/options.php:255
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/options.php:257
+msgid "Enter your custom CSS here. This will overwrite theme default CSS."
+msgstr ""
+
+#: ../inc/options.php:265
+msgid "Header"
+msgstr ""
+
+#: ../inc/options.php:269
+msgid "Logo"
+msgstr ""
+
+#: ../inc/options.php:271
+msgid "Specify logo URL or upload, select from Media Library."
+msgstr ""
+
+#: ../inc/options.php:274
+msgid "Logo Size (Optional)"
+msgstr ""
+
+#: ../inc/options.php:275
+msgid "Best size is 201x39"
+msgstr ""
+
+#: ../inc/options.php:281
+msgid "Width"
+msgstr ""
+
+#: ../inc/options.php:287
+msgid "Height"
+msgstr ""
+
+#: ../inc/options.php:293
+msgid "Logo Margin (Optional)"
+msgstr ""
+
+#: ../inc/options.php:294
+msgid "Use if you want to move logo up or down"
+msgstr ""
+
+#: ../inc/options.php:328
+msgid "Header Scripts"
+msgstr ""
+
+#: ../inc/options.php:330
+msgid ""
+"Enter scripts or code you would like output to <code>&lt;head&gt;</code>. It "
+"can be custom font link, meta tags, javascript, etc."
+msgstr ""
+
+#: ../inc/options.php:338
+msgid "Featured Title Area"
+msgstr ""
+
+#: ../inc/options.php:342
+msgid "Hide breadcrumbs"
+msgstr ""
+
+#: ../inc/options.php:361
+msgid "Blog"
+msgstr ""
+
+#: ../inc/options.php:368
+msgid "Post excerpt"
+msgstr ""
+
+#: ../inc/options.php:369
+msgid "Post content"
+msgstr ""
+
+#: ../inc/options.php:370
+msgid "Post content before more tag"
+msgstr ""
+
+#: ../inc/options.php:373
+msgid "Select type of post content will be displayed in blog page."
+msgstr ""
+
+#: ../inc/options.php:377
+msgid "Post Content Limit"
+msgstr ""
+
+#: ../inc/options.php:379
+msgid "words"
+msgstr ""
+
+#: ../inc/options.php:381
+msgid ""
+"<b>Important:</b> This setting is NOT applied if you select \"Post content "
+"before more tag\" above."
+msgstr ""
+
+#: ../inc/options.php:385
+msgid "Readmore text"
+msgstr ""
+
+#: ../inc/options.php:396
+msgid "Footer"
+msgstr ""
+
+#: ../inc/options.php:400
+msgid "Footer Columns"
+msgstr ""
+
+#: ../inc/options.php:415
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../inc/options.php:416
+msgid ""
+"HTML and Shortcodes are allowed. Available shortcodes: <code>[year]</code>, "
+"<code>[bloginfo]</code>, <code>[site_link]</code>"
+msgstr ""
+
+#: ../inc/options.php:419
+msgid "Copyright &copy;[year] [site_link]. All rights reserved."
+msgstr ""
+
+#: ../inc/options.php:423 ../tpl/contact.php:155
+msgid "Contact Information"
+msgstr ""
+
+#: ../inc/options.php:428
+msgid "Phone Number"
+msgstr ""
+
+#: ../inc/options.php:433
+msgid "Contact Email"
+msgstr ""
+
+#: ../inc/options.php:443
+msgid "Footer Scripts"
+msgstr ""
+
+#: ../inc/options.php:445
+msgid ""
+"Enter scripts or code you would like output before <code>&lt;/body&gt;</"
+"code>. It can be Google Analytics code or something else."
+msgstr ""
+
+#: ../inc/options.php:466
+msgid "Documentation"
+msgstr ""
+
+#: ../inc/options.php:467
+msgid "Support"
+msgstr ""
+
+#: ../inc/plugins.php:56
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/plugins.php:69
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../inc/portfolio.php:15
+msgid "Portfolio"
+msgstr ""
+
+#: ../inc/portfolio.php:16
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: ../inc/portfolio.php:17
+msgid "All Portfolios"
+msgstr ""
+
+#: ../inc/portfolio.php:18
+msgid "View Portfolio"
+msgstr ""
+
+#: ../inc/portfolio.php:19
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../inc/portfolio.php:20
+msgid "New Portfolio"
+msgstr ""
+
+#: ../inc/portfolio.php:21
+msgid "Edit Portfolio"
+msgstr ""
+
+#: ../inc/portfolio.php:22
+msgid "Update Portfolio"
+msgstr ""
+
+#: ../inc/portfolio.php:23
+msgid "Search portfolios"
+msgstr ""
+
+#: ../inc/portfolio.php:24
+msgid "No portfolios found"
+msgstr ""
+
+#: ../inc/portfolio.php:25
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: ../inc/portfolio.php:51
+#, php-format
+msgid "Portfolio updated. <a href=\"%s\">View Portfolio</a>"
+msgstr ""
+
+#: ../inc/portfolio.php:52
+msgid "Custom field updated."
+msgstr ""
+
+#: ../inc/portfolio.php:53
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../inc/portfolio.php:54
+msgid "Portfolio updated."
+msgstr ""
+
+#: ../inc/portfolio.php:55
+#, php-format
+msgid "Portfolio restored to revision from %s"
+msgstr ""
+
+#: ../inc/portfolio.php:56
+#, php-format
+msgid "Portfolio published. <a href=\"%s\">View Portfolio</a>"
+msgstr ""
+
+#: ../inc/portfolio.php:57
+msgid "Portfolio saved."
+msgstr ""
+
+#: ../inc/portfolio.php:58
+#, php-format
+msgid ""
+"Portfolio submitted. <a target=\"_blank\" href=\"%s\">Preview Portfolio</a>"
+msgstr ""
+
+#: ../inc/portfolio.php:59
+#, php-format
+msgid ""
+"Portfolio scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Portfolio</a>"
+msgstr ""
+
+#: ../inc/portfolio.php:59
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../inc/portfolio.php:60
+#, php-format
+msgid ""
+"Portfolio draft updated. <a target=\"_blank\" href=\"%s\">Preview Portfolio</"
+"a>"
+msgstr ""
+
+#: ../inc/portfolio.php:82
+msgid "Categories"
+msgstr ""
+
+#: ../inc/portfolio.php:83
+msgid "All Categories"
+msgstr ""
+
+#: ../inc/portfolio.php:84
+msgid "Parent Category"
+msgstr ""
+
+#: ../inc/portfolio.php:85
+msgid "Parent Category:"
+msgstr ""
+
+#: ../inc/portfolio.php:86
+msgid "New Category Name"
+msgstr ""
+
+#: ../inc/portfolio.php:87
+msgid "Add New Category"
+msgstr ""
+
+#: ../inc/portfolio.php:88
+msgid "Edit Category"
+msgstr ""
+
+#: ../inc/portfolio.php:89
+msgid "Update Category"
+msgstr ""
+
+#: ../inc/portfolio.php:90
+msgid "Separate categories with commas"
+msgstr ""
+
+#: ../inc/portfolio.php:91
+msgid "Search categories"
+msgstr ""
+
+#: ../inc/portfolio.php:92
+msgid "Add or remove categories"
+msgstr ""
+
+#: ../inc/portfolio.php:93
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ../inc/portfolio.php:139 ../inc/widgets/recent-posts.php:162
+msgid "All"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:30
+msgid "Read More &raquo;"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:35
+msgid "Whisper - Recent Posts"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:38
+msgid "Advanced recent posts widget."
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:100 ../inc/widgets/tabs.php:125
+#, php-format
+msgid "%s Comments"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:160
+msgid "Select Category: "
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:179 ../inc/widgets/tabs.php:259
+#: ../inc/widgets/tabs.php:297
+msgid "Show Comment Number"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:183 ../inc/widgets/tabs.php:263
+#: ../inc/widgets/tabs.php:301
+msgid "Show Thumbnail"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:186 ../inc/widgets/tabs.php:266
+#: ../inc/widgets/tabs.php:304
+msgid "Default Thumbnail"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:196 ../inc/widgets/tabs.php:272
+#: ../inc/widgets/tabs.php:310
+msgid "Show Date"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:200 ../inc/widgets/tabs.php:276
+#: ../inc/widgets/tabs.php:314
+msgid "Date Format"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:205
+msgid "Show Excerpt"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:209
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:213
+msgid "Show Readmore Text"
+msgstr ""
+
+#: ../inc/widgets/recent-posts.php:216
+msgid "Readmore Text:"
+msgstr ""
+
+#: ../inc/widgets/social-feed.php:13
+msgid "Whisper - Social Feed"
+msgstr ""
+
+#: ../inc/widgets/social-feed.php:16
+msgid "Shows items from the feed of social networks."
+msgstr ""
+
+#: ../inc/widgets/social-feed.php:90
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/social-feed.php:94
+msgid "Choose Network"
+msgstr ""
+
+#: ../inc/widgets/social-feed.php:97
+msgid "Devian Art"
+msgstr ""
+
+#: ../inc/widgets/social-feed.php:103
+msgid "Picasa"
+msgstr ""
+
+#: ../inc/widgets/social-feed.php:111
+msgid "Number Of Items"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:15
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:16
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:17
+msgid "Linkedin"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:18
+msgid "Google Plus"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:20
+msgid "Tumblr"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:22
+msgid "MySpace"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:24
+msgid "DeviantArt"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:26
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:27
+msgid "FourSquare"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:28
+msgid "Github"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:30
+msgid "RSS"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:43
+msgid "Whisper - Social Links"
+msgstr ""
+
+#: ../inc/widgets/social-media-links.php:46
+msgid "Display links to social media networks."
+msgstr ""
+
+#: ../inc/widgets/tabs.php:24
+msgid "Popular"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:34
+msgid "Recent"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:49
+msgid "Whisper - Tabs"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:52
+msgid ""
+"Display most popular posts, recent posts, recent comments in tabbed widget."
+msgstr ""
+
+#: ../inc/widgets/tabs.php:175
+msgid "by"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:177
+msgid "on"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:244
+msgid "Popular Posts"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:247
+msgid "Show Popular Tab"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:281
+msgid "Recent Posts"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:284 ../inc/widgets/tabs.php:322
+msgid "Show Recent Posts Tab"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:319
+msgid "Recent Comments"
+msgstr ""
+
+#: ../inc/widgets/tabs.php:330
+msgid "Number of comments to show"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:13
+msgid "Whisper - Tweets"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:15
+msgid "Display latest tweets"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:72
+msgid "Cannot retrieve tweets."
+msgstr ""
+
+#: ../inc/widgets/tweets.php:152
+msgid "Consumer Key"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:153
+msgid "Consumer Secret"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:154
+msgid "Access Token"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:155
+msgid "Access Token Secret"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:156
+msgid "Cache Time (seconds)"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:157
+msgid "Twitter Username"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:158
+msgid "Number Of Tweets"
+msgstr ""
+
+#: ../searchform.php:2
+msgid "Type and hit enter..."
+msgstr ""
+
+#: ../sidebar.php:9
+msgid "Widget areas"
+msgstr ""
+
+#: ../sidebar.php:10
+#, php-format
+msgid ""
+"This is a sidebar (widget area). Please go to <a href=\"%s\">Appearance "
+"&rarr; Widgets</a> to add widgets to this area"
+msgstr ""
+
+#: ../tpl/contact.php:57
+msgid "New Contact Email"
+msgstr ""
+
+#: ../tpl/contact.php:92
+msgid "How can we help you?"
+msgstr ""
+
+#: ../tpl/contact.php:96
+msgid ""
+"Please check if you have filled all the fields with valid information. Thank "
+"you."
+msgstr ""
+
+#: ../tpl/contact.php:102
+msgid ""
+"Email Successfully Sent!<br>Thank you for using my contact form! I will be "
+"in touch with you soon."
+msgstr ""
+
+#: ../tpl/contact.php:109
+msgid "First Name:"
+msgstr ""
+
+#: ../tpl/contact.php:114
+msgid "Last Name:"
+msgstr ""
+
+#: ../tpl/contact.php:159
+msgid "T:"
+msgstr ""
+
+#: ../tpl/contact.php:163
+msgid "E:"
+msgstr ""
+
+#: ../tpl/portfolio-single-default.php:33
+#: ../tpl/portfolio-single-simple.php:26
+msgid "Visit Web Site"
+msgstr ""
+
+#: ../tpl/portfolio-single-simple.php:31
+msgid "Our client's words"
+msgstr ""

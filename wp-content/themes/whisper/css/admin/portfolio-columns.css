@@ -1,0 +1,12 @@
+.widefat .column-image {
+	width: 60px;
+	padding-bottom: 6px;
+}
+.column-image img {
+	width: 50px;
+	height: 50px;
+	display: block;
+	padding: 3px;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}

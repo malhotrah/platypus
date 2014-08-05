@@ -1,0 +1,243 @@
+.pricing-table-col.selected .head {
+	border-radius: 2px;
+}
+body #shaon-pricing-table {
+
+	.pricing-table {
+
+		.priceTitle {
+			height: 100px;
+			span {
+				.gradient(rgba(255, 255, 255, 1), rgba(246, 246, 246, 1));
+
+				height: 100px;
+				border: 1px solid #ddd;
+				border-radius: 2px;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				-o-border-radius: 2px;
+				color: #444444;
+				font: 23px/100px Arial, sans-serif;
+				margin-bottom: 0;
+				margin-top: 0;
+				text-transform: none;
+			}
+		}
+
+		.selectedpriceTitle {
+			height: 110px;
+			span {
+				.gradient(@orange, @orange-dark);
+				height: 113px;
+				border: 1px solid @orange-dark !important;
+				font: 23px/100px Arial, sans-serif;
+				text-transform: capitalize;
+				border-radius: 2px 2px 0 0;
+				-webkit-border-radius: 2px 2px 0 0;
+				-moz-border-radius: 2px 2px 0 0;
+				-o-border-radius: 2px 2px 0 0;
+				text-shadow: none;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+				top: -5px;
+			}
+		}
+
+		.featureTitle {
+			visibility: hidden;
+			height: 100px;
+		}
+
+		.selectePrice-content {
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+			.signup {
+				.button-color(@orange);
+			}
+		}
+
+		.feature-content li {
+			&:last-child {
+				border-bottom: none !important;
+			}
+		}
+	}
+
+	.price-content,
+	.selectePrice-content,
+	.feature-content {
+		background: none;
+		border: 1px solid #DDDDDD !important;
+		li {
+			border-bottom: 1px solid #F2F2F2;
+			border-top: 0px;
+			border-left: 0px;
+			border-right: 0px;
+			color: #777777;
+			height: 20px;
+			padding: 8px;
+			text-align: center;
+			font-size: 12px;
+			font-weight: normal;
+			text-transform: inherit;
+			text-shadow: none;
+			line-height: 24px;
+			border-left: none;
+			border-right: none;
+			&:last-child {
+				border-bottom: 1px solid #DDDDDD !important;
+			}
+		}
+	}
+	.offer-tag {
+		display: none;
+	}
+}
+
+body {
+	#pricing-table .plan,
+	{
+		position: relative;
+		margin-right: -1px;
+	}
+	#shaon-pricing-table .col1 {
+		position: relative;
+		margin-right: 1px;
+	}
+
+	#pricing-table,
+	#shaon-pricing-table .pricing-table,
+	#shaon-pricing-table .minimal {
+		width: 100%;
+		display: inline-block;
+		margin: 0 10px 50px;
+
+		.plan {
+			float: left;
+			width: 25%;
+			.box-sizing();
+		}
+	}
+
+	#shaon-pricing-table .minimal .plan {
+		width: 23%;
+	}
+
+	#pricing-table .plan:nth-child(1) {
+		border-radius: 0;
+	}
+
+	#pricing-table h3 {
+		.gradient(rgba(255, 255, 255, 1), rgba(246, 246, 246, 1));
+	}
+
+	#pricing-table {
+		.plan:nth-child(4) {
+			border-radius: 0;
+		}
+
+		#most-popular {
+			border-radius: 2px;
+			border-width: 1px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+			padding: 30px 20px;
+			top: -13px;
+			z-index: 2;
+
+			h3 {
+				.gradient(@orange, @orange-dark);
+				border-radius: 2px;
+				margin-top: -30px;
+				padding-top: 30px;
+				color: #fff;
+				text-shadow: none;
+
+				&:hover {
+					color: #444;
+				}
+			}
+			.signup {
+				background-color: transparent;
+				.button-color(@orange);
+			}
+		}
+
+		h3 span {
+			font: bold 25px/100px 'Open Sans', Arial, sans-serif;
+		}
+		.signup:hover {
+			background-color: transparent;
+		}
+	}
+
+	#pricing-table, #shaon-pricing-table {
+		a.signup,
+		.signup,
+		.signup:active,
+		.signup:focus,
+		.minimal .pt-button {
+			.fitsc-button;
+			.fitsc-background-white;
+			line-height: 30px !important;
+			background-color: none;
+			width: 70px;
+			height: 30px;
+			text-transform: inherit;
+			margin: 15px 5px;
+			padding: 0px !important;
+			text-shadow: none;
+			box-shadow: none;
+
+			&:active {
+				position: relative;
+				top: 1px;
+				outline: 0;
+			}
+			&:hover {
+				text-decoration: none;
+				text-shadow: none;
+			}
+		}
+	}
+
+	.minimal {
+		.plan {
+			border: 1px solid #ddd;
+			border-radius: 2px 2px 0 0;
+		}
+		.featured {
+			top: -2px;
+
+		}
+		.features {
+			ul {
+				border: 0;
+			}
+			li {
+				border-bottom: 1px solid #ddd;
+				&:nth-child(2n) {
+					background: none;
+				}
+			}
+		}
+		.select,
+		.p1 h4 {
+			background: #E9EAEE;
+			box-shadow: none;
+			color: #AAAAAA;
+			text-shadow: none;
+		}
+		.p1 h3 {
+			.gradient(rgba(255, 255, 255, 1), rgba(246, 246, 246, 1));
+			color: #444444;
+			font: 23px/100px Arial, sans-serif;
+			border: 0;
+		}
+
+		.plan {
+			.select {
+				border-radius: 0;
+				border: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+#section-background .field-image_toggle img {
+	width: 60px;
+	height: 60px;
+}
+#theme-options .notice {
+	margin-bottom: 20px;
+	color: #989426;
+	background-color: #f8f6bc;
+	border: 1px solid #e7e48b;
+	padding: 10px;
+}
+
+#theme-options textarea {
+	font: 12px "Courier New", Courier, monospace;
+}

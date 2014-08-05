@@ -1,0 +1,377 @@
+.portfolio {
+	overflow: hidden;
+}
+
+.portfolio-filter-container {
+	width: 100%;
+	float: left;
+	margin-bottom: 40px;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		float: left;
+		padding-right: 5px;
+	}
+	a {
+		padding-right: 5px;
+	}
+}
+
+.portfolio-items-container {
+	position: relative;
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.portfolio .portfolio-image {
+	width: 100%;
+	position: relative;
+	float: left;
+
+	a, img {
+		display: block;
+	}
+}
+
+.portfolio figcaption {
+	background: #f0f0f0;
+	margin-top: 3px;
+	width: 100%;
+	float: left;
+}
+
+.portfolio-icon {
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+.portfolio-icon i {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 30px;
+	color: #444;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+
+.grid_4 .caption-title {
+	width: 240px;
+	height: 60px;
+	float: left;
+	padding: 10px;
+	border-left: 3px solid #fff;
+
+	.box-sizing();
+	text-align: center;
+}
+
+.grid_3 .portfolio-icon {
+	display: none;
+}
+
+.grid_3 .caption-title {
+	width: 100%;
+	padding: 10px 20px;
+
+	.box-sizing();
+	text-align: center;
+}
+
+.caption-title .title {
+	font: bold 13px 'Open Sans', Arial, sans-serif;
+	color: #444;
+	margin: 0;
+	display: block;
+}
+
+.caption-title .subtitle {
+	font-style: italic;
+}
+
+.portfolio-hover {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.portfolio-hover .mask {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.portfolio-hover ul {
+	display: block;
+	list-style: none;
+}
+
+.portfolio-hover li {
+	float: left;
+	background: url(../img/icon-hover.png) no-repeat;
+	width: 42px;
+	height: 50px;
+	opacity: 1;
+	top: 50%;
+	margin-top: -25px;
+
+	transition: .2s ease 0s;
+}
+
+.portfolio.hexagons .portfolio-hover li {
+	top: 0;
+	margin-top: 0;
+}
+
+.portfolio.hexagons .caption-title {
+	border: none;
+}
+
+.portfolio-hover .portfolio-zoom {
+	margin-right: 4px;
+	position: absolute;
+	left: -42px;
+}
+
+.portfolio-hover .portfolio-zoom a {
+	text-indent: -9999px;
+	background: url(../img/zoom.png) no-repeat center center;
+	display: block;
+	width: 42px;
+	height: 50px;
+}
+
+.portfolio.hexagons .portfolio-hover .portfolio-zoom {
+	margin-left: -44px;
+	left: 50%;
+}
+
+.portfolio-hover .portfolio-single {
+	position: absolute;
+	right: -42px;
+}
+
+.portfolio.hexagons .portfolio-hover .portfolio-single {
+	position: relative;
+	margin-right: -44px;
+	left: 50%;
+}
+
+.portfolio-hover .portfolio-single a {
+	text-indent: -9999px;
+	background: url(../img/link.png) no-repeat center center;
+	display: block;
+	width: 42px;
+	height: 50px;
+}
+
+.portfolio:hover {
+	.portfolio-hover {
+		opacity: 1;
+	}
+	.portfolio-single {
+		right: 50%;
+		margin-right: -45px;
+	}
+	.portfolio-zoom {
+		left: 50%;
+		margin-left: -45px;
+	}
+}
+
+/* PORTFOLIO HEXAGONS
+----------------------------------------------------------------------------- */
+.portfolio.hexagons {
+	position: relative;
+	cursor: pointer;
+}
+.portfolio.hexagons .portfolio-image {
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.portfolio.hexagons .portfolio-image .hexagon-mask {
+	background: url(../img/mask.png) no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 200;
+}
+
+.portfolio.hexagons figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	height: 100%;
+
+	padding: 85px 30px;
+	.box-sizing();
+	background: none;
+}
+
+.portfolio.hexagons .mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	background: #fff;
+	float: left;
+}
+
+.portfolio.hexagons .caption-title,
+.portfolio.hexagons p {
+	z-index: 100;
+	position: relative;
+	float: left;
+}
+
+.portfolio.hexagons .caption-title .title {
+	font: bold 14px 'Open Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.portfolio.hexagons .caption-title .subtitle,
+.portfolio.hexagons p {
+	color: #555;
+}
+
+.portfolio.hexagons .portfolio-hover {
+	float: left;
+	height: auto;
+	display: block;
+	z-index: 200;
+	margin-top: 20px;
+	opacity: 1;
+	position: relative;
+}
+
+.portfolio.hexagons .portfolio-hover ul {
+	display: table;
+	position: relative;
+	z-index: 200;
+	margin: 0 auto;
+}
+
+.portfolio.hexagons figcaption {
+	display: none;
+}
+
+.portfolio.hexagons:hover figcaption {
+	display: block;
+}
+
+.portfolio-slider-1 {
+	width: 620px;
+	float: left;
+	background: url(../img/slider-loading.gif) no-repeat center;
+	min-height: 399px;
+	overflow: hidden;
+}
+
+.portfolio-slider-1 .nivoSlider,
+.portfolio-slider-2 .nivoSlider {
+	margin-bottom: 0;
+}
+
+.portfolio-slider-1 .nivoSlider img {
+	width: 100%;
+	min-height: 400px;
+	float: left;
+	background: url(../img/slider-loading.gif) no-repeat center;
+}
+
+.portfolio-slider-2 {
+	width: 940px;
+	min-height: 399px;
+	float: left;
+	background: url(../img/slider-loading.gif) no-repeat center;
+}
+
+.nivo-controlNav a {
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #ddd;
+	text-indent: -9999px;
+	float: left;
+	margin-right: 3px;
+
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-o-transition: all 0.2s ease 0s;
+	-ms-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+}
+
+.portfolio-default-description {
+	width: 320px;
+	float: left;
+	padding: 20px;
+
+	.box-sizing();
+	min-height: 399px;
+}
+.single-portfolio .entry-title a {
+	color: #fff;
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+.portfolio-default-description .title {
+	width: 100%;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.portfolio-default-description h5 {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.portfolio-default-description span.subtitle {
+	color: #fff;
+	font-weight: 300;
+}
+
+.portfolio-default-description p {
+	color: #fff;
+	font-weight: 300;
+}
+
+.portfolio-hover .mask {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio:hover .portfolio-hover .mask {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+.portfolio.hexagons .mask {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}

@@ -1,0 +1,28 @@
+.tp-caption.large_bold_black {
+font-size:58px;
+line-height:60px;
+font-weight:800;
+font-family:"Open Sans";
+color:rgb(0, 0, 0);
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.modern_small_text_dark {
+color:#666666;
+background-color:transparent;
+text-decoration:none;
+text-shadow:none;
+font-size:14px;
+line-height:22px;
+font-family:"Open Sans";
+margin:0px;
+white-space:nowrap;
+border-width:0px;
+border-color:rgb(102, 102, 102);
+border-style:none;
+}
+

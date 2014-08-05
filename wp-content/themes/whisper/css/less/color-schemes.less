@@ -1,0 +1,141 @@
+.color-scheme(@color, @color1, @color2, @color3, @color4, @color5) {
+	a:hover,
+	.entry-content a,
+	.team-info .name-position span,
+	.portfolio-filter-container .active a,
+	#footer a:hover,
+	blockquote cite a,
+	.text-color,
+	.pricing-table-col.selected-2 .head h1,
+	.pricing-table-col.selected-2 .head h2,
+	.pricing-table-col.selected-2 .head h3,
+	.pricing-table-col.selected-2 .head h4,
+	.pricing-table-col.selected-2 .head h5,
+	.pricing-table-col.selected-2 .head h6 {
+		color: @color1;
+	}
+
+	.more-link:hover span,
+	.social-link:hover,
+	.dropcap-color,
+	.clients-navigation a:hover,
+	.service-box:hover,
+	.nivo-controlNav a.active,
+	.nivo-controlNav a:hover,
+	.portfolio-default-description,
+	.format-icon:hover,
+	.sticky .entry-title a,
+	.widget_tag_cloud a:hover,
+	.post-tags a:hover {
+		background-color: @color1;
+	}
+
+	.pricing-table-col.selected .head span.price {
+		color: @color2;
+	}
+
+	blockquote {
+		border-left: 1px solid @color1;
+	}
+
+	.fitsc-tabs .fitsc-nav .fitsc-active,
+	.fitsc-promo-box {
+		border-color: @color1;
+	}
+
+	.comment-reply-link,
+	#comment-reply,
+	.pagination a:hover, .pagination .current, .pages > span, .pages a:hover,
+	.pricing-table-col.selected .head {
+		.gradient(@color1, @color3);
+		border: 1px solid @color4;
+	}
+
+	.comment-reply-link:hover,
+	#comment-reply:hover {
+		.gradient(@color3, @color1);
+		color: #fff;
+	}
+
+	.fitsc-percent {
+		.gradient(@color1, @color3);
+
+		box-shadow: inset 0 0 2px @color5;
+		border: 1px solid @color4;
+	}
+
+	.fitsc-accordion.fitsc-active .fitsc-title,
+	.fitsc-toggle.fitsc-active .fitsc-title {
+		background: url('../img/colors/@{color}/accordion-opened.png') no-repeat 0 center;
+	}
+
+	#nav > ul {
+		& > li:hover,
+		& > .current-menu-item,
+		& > .current-menu-ancestor,
+		& > .current_page_item,
+		& > .current_page_ancestor {
+			& > a {
+				color: @color1;
+			}
+		}
+
+		& > .has-sub {
+			&:hover,
+			&.current-menu-item,
+			&.current-menu-ancestor,
+			&.current_page_item,
+			&.current_page_ancestor {
+				background-color: @color1;
+			}
+		}
+	}
+
+	.service-hex-icon:hover {
+		background: url('../img/colors/@{color}/service-hover-bkg.png') no-repeat 0 0;
+	}
+
+	.portfolio-hover li:hover {
+		background-image: url('../img/colors/@{color}/portfolio-icon.png');
+	}
+
+	.contact-info li.address {
+		background: url('../img/colors/@{color}/address.png') no-repeat 0 0;
+	}
+
+	.widget li:hover:before {
+		background-color: @color1;
+	}
+
+	.flex-next:hover,
+	.flex-prev:hover {
+		background-color: @color1;
+	}
+
+	#pricing-table #most-popular h3,
+	#shaon-pricing-table .pricing-table .selectedpriceTitle span {
+		.gradient(@color1, darken(@color1, 7%));
+	}
+
+	#shaon-pricing-table .pricing-table .selectedpriceTitle span {
+		border: 1px solid darken(@color1, 7%) !important;
+	}
+
+	#pricing-table #most-popular,
+	#shaon-pricing-table .pricing-table .selectePrice-content {
+		.signup {
+			.button-color(@color1);
+		}
+	}
+}
+
+.color-scheme('orange', #fb6148, #fbcbbf, darken(#fb6148, 5%), #eb5443, #f77765);
+.red {
+	.color-scheme('red', #f13349, #fab2ba, #e02d42, #cd3042, #f9c6cc);
+}
+.green {
+	.color-scheme('green', #9bd75b, #d5eebb, #90c855, #8dc451, #d0f7a6);
+}
+.blue {
+	.color-scheme('blue', #3cb9ed, #b8e6f8, #34ABDC, #37a9d8, #abdff5);
+}
