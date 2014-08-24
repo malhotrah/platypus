@@ -247,7 +247,8 @@ class Whisper_Shortcodes_Frontend
 		), $atts ) );
 
         //todo: updated the code for about us page issue related to email hide
-
+        $team_name=explode(' ',rtrim($atts['name'],","));
+        $team_final_name=$team_name[0];
 		return sprintf( '
 			<div class="team clearfix">
 				<img src="%s" alt="%s">
@@ -260,7 +261,7 @@ class Whisper_Shortcodes_Frontend
 						%s
 						<ul>
 							<li class="phone">%s</li>
-							<li class="mail"><a href="mailto:%s">Contact</a></li>
+							<li class="mail"><a href="mailto:%s">Contact '.$team_final_name.'</a></li>
 						</ul>
 					</div>
 				</div>
